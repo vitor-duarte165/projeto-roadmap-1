@@ -1,0 +1,98 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #a4508b 50%, #ff7e5f 100%);
+    min-height: 100vh;
+    color: #ecefee;
+}
+
+/* Aumentar espaçamento geral */
+body {
+    padding: 40px;
+}
+
+/* Container principal */
+.curriculo-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+/* Seções com mais espaçamento */
+.secao {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+/* Títulos */
+h2 {
+    margin: 30px 0 20px 0;
+    padding-bottom: 10px;
+}
+
+/* Itens de lista */
+ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* Experiências e formações */
+.experiencia, .formacao {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Calibri', 'Arial', sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    max-width: 21cm;
+    margin: 0 auto;
+    padding: 2cm;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    color: #ecefee;
+    margin: 24px 0 12px 0;
+}
+
+p {
+    margin: 0 0 12px 0;
+    text-align: justify;
+}
+
+ul, ol {
+    margin: 0 0 12px 0;
+    padding-left: 36px;
+}
+
+.secao {
+    margin-bottom: 24px;
+    page-break-inside: avoid;
+}
+
+.header {
+    border-bottom: 1px solid #2e74b5;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+}
+
+.secao {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
